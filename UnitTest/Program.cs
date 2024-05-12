@@ -65,14 +65,14 @@ namespace RobloxFiles.UnitTest
             }
             else
             {
-                RobloxFile bin = RobloxFile.Open(@"Files\Binary.rbxl");
-                RobloxFile xml = RobloxFile.Open(@"Files\Xml.rbxlx");
+                RobloxFile bin = RobloxFile.Open(@"Files/Binary.rbxl");
+                RobloxFile xml = RobloxFile.Open(@"Files/Xml.rbxlx");
 
                 Console.WriteLine("Files opened! Pausing execution for debugger analysis...");
                 Debugger.Break();
 
-                bin.Save(@"Files\Binary_SaveTest.rbxl");
-                xml.Save(@"Files\Xml_SaveTest.rbxlx");
+                bin.Save(@"Files/Binary_SaveTest.rbxl");
+                xml.Save(@"Files/Xml_SaveTest.rbxlx");
                 
                 Console.WriteLine("Files saved! Pausing execution for debugger analysis...");
                 Debugger.Break();
