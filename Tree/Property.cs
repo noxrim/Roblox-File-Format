@@ -95,7 +95,7 @@ namespace RobloxFiles
             { typeof(NumberSequence),    PropertyType.NumberSequence },
             { typeof(Optional<CFrame>),  PropertyType.OptionalCFrame },
 
-            { typeof(ProtectedString),     PropertyType.String               }, 
+            { typeof(ProtectedString),     PropertyType.ProtectedString      }, 
             { typeof(PhysicalProperties),  PropertyType.PhysicalProperties   },
             { typeof(ulong),               PropertyType.SecurityCapabilities },
         };
